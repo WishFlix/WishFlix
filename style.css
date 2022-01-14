@@ -51,12 +51,12 @@ header {
   width: 100px;
   max-height: 100%;
   
-  padding-left: 30px;
+  padding-left: 40px;
   padding-top: 0px;  
 }
 
 .netflixLogo img {  
-  height: 35px;     
+  height: 45px;     
 }
 
 #logo {
@@ -147,7 +147,7 @@ header {
 }
 
 .logos a{
-  padding: 10px;
+  padding: 20px;
 }
 
 .logo {
