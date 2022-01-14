@@ -128,23 +128,6 @@ header {
   padding: 50px;
 }
 
-.sub-links ul {
-  list-style: none;
-  padding: 0;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.sub-links a {
-  color: var(--dark);
-  text-decoration: none;
-}
-
-.sub-links a:hover {
-  color: var(--dark);
-  text-decoration: underline;
-}
 
 .logos a{
   padding: 10px;
