@@ -102,7 +102,7 @@ body {
 .banner__button:hover {
   color: #000;
   background-color: #e6e6e6;
-  transition: all 0.2s;
+  transition: all 0.3s;
 }
 
 .banner--fadeBottom {
@@ -114,7 +114,7 @@ body {
 /* nav */
 
 .nav__logo {
-  width: 80px;
+  width: 100px;
   object-fit: contain;
 }
 
@@ -129,7 +129,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
   /* background-color: #111; */
   z-index: 1;
   transition-timing-function: ease-in;
@@ -196,6 +196,8 @@ p {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+    text-align:center
+    margin:auto
   }
 
     .sub-links ul {
@@ -228,3 +230,10 @@ p {
   color: var(--dark);
   text-decoration: underline;
 }
+
+
+
+
+
+
+
