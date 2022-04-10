@@ -119,8 +119,10 @@ body {
 }
 
 .nav__avatar {
-  width: 30px;
+  width: 58px;
   object-fit: contain;
+  padding: 23px 22px 0px 0px;
+  
 }
 
 .nav {
