@@ -193,6 +193,13 @@ p {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+  .giveway {
+    font-size:20px;
+    margin-inline-start:-25px;
+    margin-inline-end:39px;
+    color:white;
+    padding:16px;
+    text-shadow: 2px 1px 5px black;
 
   .sub-links ul {
     display: grid;
