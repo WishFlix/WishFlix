@@ -50,13 +50,12 @@ body {
 
 .row {
   color: white;
-  margin-left: -60px;
-  margin-right: -60px
+  margin-left: 20px;
 }
 
 /* banner */
 .banner {
-  background-image: url('https://i.ibb.co/5h9GbvN/image.png');
+  background-image: url('https://sm.ign.com/ign_fr/news/d/doctor-str/doctor-strange-2-is-undergoing-significant-reshoots_u7qj.jpg');
   background-size: cover;
   background-position: center center;
   color: white;
@@ -71,7 +70,7 @@ body {
 }
 
 .banner__title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   padding-bottom: 0.3rem;
 }
@@ -143,54 +142,34 @@ body {
   background-color: #111;
 }
 
+
+
 /* MAIN CONTIANER */
 .main-container {
-  padding: 130px;
+  padding: 30px;
 }
 
-.row{
-  display: flex;
+.box {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
 }
 
-.left{
-  flex: 50%;
-  padding: 15px 0;
+.box a {
+  transition: transform .3s;  
 }
-.left h2{
-  padding-left: 10px;
+
+.box a:hover {
+  transition: transform .3s;
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);  
+  transform: scale(1.4);
 }
-.right{
-  flex: 50%;
-  /*padding: 20px;*/
-  text-align: center;
+
+.box img {
+  border-radius: 2px;
 }
-.right h2{
-  margin-top:35%;
-}
-.right label{
-  color: #eee;
-  font-family: monster;
-}
-#mySearch{
-  width: 97%;
-  font-size: 20px;
-  padding: 12px;
-  border: 1px solid #ddd;
-}
-#myMenu{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-#myMenu li a{
-  padding: 12px;
-  text-decoration: none;
-  color: white;
-  display: block;
-}
-#myMenu li a:hover{
-  background-color: #303030;
-}
+
 img {
   max-width: 100%;
 }
@@ -255,3 +234,9 @@ p {
   color: var(--dark);
   text-decoration: underline;
 }
+
+
+
+
+
+
