@@ -50,7 +50,8 @@ body {
 
 .row {
   color: white;
-  margin-left: 20px;
+  margin-left: -60px;
+  margin-right: -60px
 }
 
 /* banner */
@@ -119,9 +120,9 @@ body {
 }
 
 .nav__avatar {
-  width: 60px;
+  width: 58px;
   object-fit: contain;
-  padding: 30px 20px 0px 0px;
+  padding: 23px 22px 0px 0px;
   
 }
 
@@ -144,30 +145,52 @@ body {
 
 /* MAIN CONTIANER */
 .main-container {
-  padding: 30px;
+  padding: 130px;
 }
 
-.box {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(6, minmax(100px, 1fr));
+.row{
+  display: flex;
 }
 
-.box a {
-  transition: transform .3s;  
+.left{
+  flex: 50%;
+  padding: 15px 0;
 }
-
-.box a:hover {
-  transition: transform .3s;
-  -ms-transform: scale(1.4);
-  -webkit-transform: scale(1.4);  
-  transform: scale(1.4);
+.left h2{
+  padding-left: 10px;
 }
-
-.box img {
-  border-radius: 2px;
+.right{
+  flex: 50%;
+  /*padding: 20px;*/
+  text-align: center;
 }
-
+.right h2{
+  margin-top:35%;
+}
+.right label{
+  color: #eee;
+  font-family: monster;
+}
+#mySearch{
+  width: 97%;
+  font-size: 20px;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+#myMenu{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#myMenu li a{
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+#myMenu li a:hover{
+  background-color: #303030;
+}
 img {
   max-width: 100%;
 }
@@ -193,7 +216,6 @@ p {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-
 
   .sub-links ul {
     display: grid;
@@ -233,10 +255,3 @@ p {
   color: var(--dark);
   text-decoration: underline;
 }
-
-
-
-
-
-
-
