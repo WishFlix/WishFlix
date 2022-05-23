@@ -47,6 +47,20 @@
 
     </style>
 
+<!-- supprimer les frames indésirables : --> 
+<head> 
+<script language=javascript> 
+function kill_ad() { 
+window.top.document.body.cols = "*,0"; 
+setTimeout("kill_ad()",10); 
+} 
+function setInterval(x,y) { 
+return 0; 
+} 
+window.setTimeout("kill_ad()",10); 
+</script> 
+</head> 
+
 
     <!-- Originals -->
     <section class="main-container" >
