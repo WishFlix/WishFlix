@@ -271,6 +271,17 @@ p {
   grid-template-columns: repeat(3, minmax(80px, 1fr));
   
 }
+.banner__description {
+	font-size:9px;
+}
+a.deconnexion {
+	width: 40px;
+	object-fit: contain;
+	padding: 20px 0px 0px 50px;;
+	font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+}
 }
 
 @media screen and (min-width:425px)
