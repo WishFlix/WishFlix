@@ -244,7 +244,70 @@ p {
   text-decoration: underline;
 }
 
+@media screen and (max-width:1500px)
+{
+.banner--fadeBottom {
+  margin-top: 160px;
+  height: 7.4rem;
+  background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+}
 
+/* nav */
+
+.nav__logo {
+  width: 150px;
+  object-fit: contain;
+}
+
+.nav__avatar {
+  width: 75px;
+  object-fit: contain;
+  padding: 35px 35px 0px 0px;
+  
+}
+.box {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(3, minmax(80px, 1fr));
+  
+}
+}
+
+@media screen and (min-width:425px)
+{
+	/* FOOTER */
+footer {
+  padding: 20px;
+  text-align: center;
+  color: var(--dark);
+  margin: 10px;
+}
+p {
+    display: block;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+  .sub-links ul {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    text-align:center
+    margin:auto
+  }
+
+    .sub-links ul {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    font-size: 15px;
+  }
+}
 
 
 
