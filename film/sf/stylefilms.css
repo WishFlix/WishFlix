@@ -142,6 +142,15 @@ body {
   background-color: #111;
 }
 
+a.deconnexion {
+	width: 35px;
+	object-fit: contain;
+	padding: 50px 0px 0px 850px;;
+	font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+}
+
 /* MAIN CONTIANER */
 .main-container {
   padding: 30px;
@@ -242,10 +251,6 @@ p {
 }
 
 
-
-
-
-
 @media screen and (max-width:1500px)
 {
 .banner--fadeBottom {
@@ -264,7 +269,7 @@ p {
 .nav__avatar {
   width: 75px;
   object-fit: contain;
-  padding: 35px 35px 0px 0px;
+  padding: 55px 35px 0px 0px;
   
 }
 .box {
@@ -272,6 +277,14 @@ p {
   grid-gap: 50px;
   grid-template-columns: repeat(3, minmax(80px, 1fr));
   
+}
+a.deconnexion {
+	width: 40px;
+	object-fit: contain;
+	padding: 20px 0px 0px 50px;;
+	font-size: 25px;
+	color: #fff;
+	text-decoration: none;
 }
 }
 
