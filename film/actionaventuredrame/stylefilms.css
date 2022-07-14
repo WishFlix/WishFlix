@@ -31,7 +31,7 @@ body {
   overflow-x: scroll;
   padding: 20px;
 }
-
+ 
 .row__poster:hover {
   transform: scale(1.08);
 }
