@@ -157,10 +157,11 @@ a.deconnexion {
 
 /* alert message box */
 .info {
-  padding: 20px;
+  margin: 80px 12px 20px 0px; 
+  padding: 20px 15px 15px 13px;
   background-color: #3497f4; /* Red */
   color: white;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 /* button close */
