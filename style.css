@@ -162,6 +162,7 @@ a.deconnexion {
   background-color: #3497f4; /* Red */
   color: white;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 /* button close */
