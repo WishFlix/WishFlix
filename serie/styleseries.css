@@ -242,11 +242,33 @@ p {
 }
 
 
+  /* The alert message box */
+.info {
+  padding: 20px;
+  background-color: #3497f4; 
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
 
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
 
-
-@media screen and (max-width:1500px)
+@media screen and (max-width:1175px)
 {
 .banner--fadeBottom {
   margin-top: 160px;
@@ -273,11 +295,29 @@ p {
   grid-template-columns: repeat(3, minmax(80px, 1fr));
   
 }
+.banner__description {
+  font-size:9px;
+}
+a.deconnexion {
+  width: 40px;
+  object-fit: contain;
+  padding: 20px 0px 0px 50px;;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+    .sub-links ul {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    font-size: 15px;
+  }
 }
 
-@media screen and (min-width:425px)
+@media screen and (min-width:423px)
 {
-	/* FOOTER */
+  /* FOOTER */
 footer {
   padding: 20px;
   text-align: center;
@@ -305,8 +345,15 @@ p {
     .sub-links ul {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
     font-size: 15px;
   }
+
 }
+
+
+
+
+
+
