@@ -302,6 +302,7 @@ h1 {
 }
 
 #myMenu li a{
+  text-align: left;
   padding: 15px;
   text-decoration: none;
   color: white;
