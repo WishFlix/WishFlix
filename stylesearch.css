@@ -184,6 +184,7 @@ body {
   margin: 0;
 }
 #myMenu li a{
+  text-align: left;
   padding: 12px;
   text-decoration: none;
   color: white;
