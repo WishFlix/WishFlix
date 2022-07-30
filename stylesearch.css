@@ -371,6 +371,7 @@ p {
   }
 	
 	.row {
+    text-align: center;
     color: white;
     margin-left: -60px;
     margin-right: -60px;
