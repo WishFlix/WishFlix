@@ -139,12 +139,12 @@ body {
 }
 
 a.deconnexion {
-	width: 35px;
-	object-fit: contain;
-	padding: 50px 0px 0px 850px;;
-	font-size: 25px;
-	color: #fff;
-	text-decoration: none;
+  width: 35px;
+  object-fit: contain;
+  padding: 50px 0px 0px 850px;;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .nav__black {
@@ -157,13 +157,24 @@ a.deconnexion {
 
 /* alert message box */
 .info {
-  margin: 80px 12px 20px 0px; 
+  margin: 30px 12px 20px 0px; 
   padding: 20px 15px 15px 13px;
-  background-color: #3497f4; /* Red */
+  background-color: #3497f4; 
   color: white;
   margin-bottom: 10px;
   border-radius: 5px;
 }
+
+.info2 {
+  margin: 10px 11px 20px 0px; 
+  padding: 20px 15px 15px 13px;
+  background-color: #26464b; 
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
 
 /* button close */
 .closebtn {
@@ -300,15 +311,15 @@ p {
   
 }
 .banner__description {
-	font-size:9px;
+  font-size:9px;
 }
 a.deconnexion {
-	width: 40px;
-	object-fit: contain;
-	padding: 20px 0px 0px 50px;;
-	font-size: 25px;
-	color: #fff;
-	text-decoration: none;
+  width: 40px;
+  object-fit: contain;
+  padding: 20px 0px 0px 50px;;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
 }
     .sub-links ul {
     display: grid;
@@ -321,7 +332,7 @@ a.deconnexion {
 
 @media screen and (min-width:423px)
 {
-	/* FOOTER */
+  /* FOOTER */
 footer {
   padding: 20px;
   text-align: center;
@@ -354,7 +365,6 @@ p {
     font-size: 15px;
   }
 }
-
 
 
 
