@@ -55,6 +55,10 @@ body {
   margin-top: 45px;
 }
 
+h4.att {
+    text-align: center;
+}
+
 /* banner */
 .banner {
   background-image: url('https://i.ibb.co/5h9GbvN/image.png');
@@ -356,6 +360,7 @@ h4.att {
   font-size: 25px;
   padding: 12px;
   border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 #myMenu{
