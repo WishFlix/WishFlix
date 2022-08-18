@@ -3,9 +3,7 @@
   box-sizing: border-box;
 }
 
-h4.att {
-  text-align: center;
-}
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -117,6 +115,41 @@ body {
   background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
 }
 
+
+u {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color:white;
+}
+
+.info2 {
+  margin: 10px 0px 20px 0px; 
+  padding: 20px 15px 15px 13px;
+  background-color: #26464b; 
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+/* button close */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Lorsque vous déplacez la souris sur le bouton de fermeture */
+.closebtn:hover {
+  color: black;
+}
+
 /* nav */
 
 .nav__logo {
@@ -177,7 +210,7 @@ body {
   font-family: monster;
 }
 #mySearch{
-  width: 97%;
+  width: 100%;
   font-size: 20px;
   padding: 12px;
   border: 1px solid #ddd;
@@ -304,6 +337,11 @@ h1 {
   font-size: 30px;  
 }
 
+h4.att {
+  text-align: center;
+  padding: 9px;
+}
+
 #myMenu li a{
   padding: 15px;
   text-decoration: none;
@@ -312,7 +350,7 @@ h1 {
 }
 
 #mySearch{
-  width: 97%;
+  width: 100%;
   font-size: 25px;
   padding: 12px;
   border: 1px solid #ddd;
@@ -341,7 +379,7 @@ h1 {
 
 @media screen and (min-width:425px)
 {
-	/* FOOTER */
+  /* FOOTER */
 footer {
   padding: 20px;
   text-align: center;
@@ -373,11 +411,11 @@ p {
     text-align: center;
     font-size: 15px;
   }
-	
-	.row {
+  
+  .row {
     color: white;
     margin-left: -60px;
     margin-right: -60px;
     margin-top: 45px;
-		
+    
 }
