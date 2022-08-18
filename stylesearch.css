@@ -215,6 +215,7 @@ u {
   font-size: 20px;
   padding: 12px;
   border: 1px solid #ddd;
+  border-radius: 5px;
 }
 #myMenu{
   list-style-type: none;
