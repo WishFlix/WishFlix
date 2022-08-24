@@ -125,6 +125,8 @@ body {
   
 }
 
+
+
 .nav {
   position: fixed;
   top: 0;
@@ -245,28 +247,13 @@ p {
   /* The alert message box */
 .info {
   padding: 20px;
-  background-color: #3497f4; 
+  background-color: #111111; 
   color: white;
   margin-bottom: 15px;
   border-radius: 5px;
 }
 
-/* The close button */
-.closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
 
-/* When moving the mouse over the close button */
-.closebtn:hover {
-  color: black;
-}
 
 @media screen and (max-width:1175px)
 {
